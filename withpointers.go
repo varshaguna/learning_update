@@ -15,6 +15,6 @@ func main(){
 
 }
 
-func getAdultYears(age int) int{
+func getAdultYears(age *int) int{
 	return age - 18
 }
